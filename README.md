@@ -62,7 +62,7 @@ We used 761 regular expression patterns to collect candidate repositories contai
 
 ### Overview of SecretBench Metadata:
 
-We curated 818 public Github repositories and extracted 97,479 candidate secrets. Each secret is manually labeled by finding out whether the secret is actual or not after inspecting the secret and the source code context of the secret. Below we present an overview of the SecretBench data.
+We curated 818 public Github repositories and extracted 97,479 candidate secrets. Out of 97,479 secrets, we labeled 15,087 secrets as true secrets. Each secret is manually labeled by finding out whether the secret is actual or not after inspecting the secret and the source code context of the secret. Below we present an overview of the SecretBench data.
 
 |Field Name|Description|Data Type|
 |--------|--------|--------|
@@ -93,7 +93,7 @@ We curated 818 public Github repositories and extracted 97,479 candidate secrets
 
 The "**repo_identifier**" and "**file_identifier**" can be used to locate the specific repository and the file where the secret is present. The repositories and files can be downloaded from Google Cloud Storage. See Section.
 
-### Secret Categorization
+### Secret Categorization:
 
 The secrets present in our dataset in categorized into eight categories. In the table below, we present the number of total candidate secrets, true secrets, and the category description.
 
@@ -107,6 +107,48 @@ The secrets present in our dataset in categorized into eight categories. In the 
 |Password |This category contains any plain text passwords.| 150 | 705|
 |Username |This category contains any plain text usernames.| 27 | 96|
 |Other |This category contains other possible secrets such as Package Key ID or any random string.| 524 | 66,690|
+
+### Programming Languages:
+
+Our dataset covers 248 programming languages. Note that each GitHub repository can have multiple programming languages. The top 10 programming languages based on the number of repositories is presented below. The full list of programming languages can be found [here](https://github.com/setu1421/SecretBench/blob/main/Metadata/Programming%20Languages/language_repo_stat.csv).
+
+|Language Name|No. of Repository|
+|--------|--------|
+|Shell|459|
+|HTML|416|
+|JavaScript|414|
+|CSS|316|
+|Python|312|
+|Dockerfile|183|
+|Java|180|
+|Makefile|179|
+|Ruby|172|
+|C|128|
+
+### File Types:
+
+Our dataset consists of secrets present in 311 file types. Below we present the top 5 file types based on the number of candidate secrets in our dataset. The full list of file types can be found [here](https://github.com/setu1421/SecretBench/blob/main/Metadata/File%20Types/file_types.csv).
+|File type|Description|Total Secrets|
+|--------|--------|--------|
+|js|Javascript file|10,412|
+|nix|Package Manager File|8,623|
+|json|JavaScript Object Notation File|8,132|
+|txt|Text File|7,737|
+|xml|Extensible Markup Language File|6,429|
+
+In addition, we present the top 5 file types based on the number of true secrets in our dataset.
+|File type|Description|Total Secrets|
+|--------|--------|--------|
+|txt|Text File|2,935|
+|toml|Configuration File|1,985|
+|js|Javascript file|1,583|
+|html|Hypertext Markup Language File|1,337|
+|pem|Privacy Enhanced Mail Format File|814|
+
+
+
+
+
 
 ## License:
 
