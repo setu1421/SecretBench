@@ -9,21 +9,14 @@
    * [Introduction](#introduction)
    * [How To Use](#how-to-use)
    * [Data Overview](#data-overview)
-	  * [Data statistics](#data-statistics)
-   * [Data](#data)
-	  * [Selecting Target Repositories](#selecting-target-repositories)
-	  * [Ground Rules for Labeling Suspected Credential Information](#ground-rules-for-labeling-suspected-credential-information)
-   * [Metadata](#metadata)
-   * [Obfuscation](#obfuscation)
+	  * [Regular Expressions](#regular-expressions)
+	  * [Overview of SecretBench Metadata](#overview-of-secretbench-metadata)
+	  * [Secret Categorization](#secret-categorization)
+	  * [Programming Languages](#programming-languages)
+	  * [File Types](#file-types)
    * [License](#license)
-   * [Directory Structure](#directory-structure)
-   * [Benchmark](#benchmark)
-     * [Main Requirements](#main-requirements)
-     * [Installation](#installation)
-     * [How to run](#how-to-run)
-     * [Benchmark Result](#benchmark-result)
-     * [Used Tools for Benchmarking](#used-tools-for-benchmarking)
    * [Citation](#citation)
+   * [Future RoadMap](#future-roadmap)
    * [How to Get Involved](#how-to-get-involved)
    * [How to Contact](#how-to-contact)
 
@@ -145,12 +138,18 @@ In addition, we present the top 5 file types based on the number of true secrets
 |html|Hypertext Markup Language File|1,337|
 |pem|Privacy Enhanced Mail Format File|814|
 
+### Future RoadMap:
+
+ - Currently, our dataset consists of only GitHub repositories. We will expand our dataset by including repositories from other version control systems such as Gitlab and Bitbucket.
+ - We will enrich our dataset with more features related to secrets, such as whether the secrets have parentheses (possible function call) and begin with a $ sign (possible variable). The complete list of our additional features is available [here](https://github.com/setu1421/SecretBench/blob/main/RoadMap/Additional%20Features.xlsx).
+
 
 
 
 
 
 ## License:
+
 
 ## Ethics:
 
@@ -163,8 +162,3 @@ In addition, we present the top 5 file types based on the number of true secrets
  - Lorenzo Neil (lcneil@ncsu.edu)
  - Bradley Reaves (bgreaves@ncsu.edu)
  - Laurie Willams (lawilli3@ncsu.edu) 
-
-
-
-
-
