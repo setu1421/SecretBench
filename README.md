@@ -14,11 +14,11 @@
 	  * [Secret Categorization](#secret-categorization)
 	  * [Programming Languages](#programming-languages)
 	  * [File Types](#file-types)
-   * [License](#license)
-   * [Citation](#citation)
    * [Future RoadMap](#future-roadmap)
-   * [How to Get Involved](#how-to-get-involved)
-   * [How to Contact](#how-to-contact)
+   * [License](#license)
+   * [Ethics](#ethics)
+   * [How to Contribute](#how-to-contribute)
+   * [Authors](#authors)
 
 ## Introduction
 
@@ -80,11 +80,11 @@ We curated 818 public Github repositories and extracted 97,479 candidate secrets
 |has_words| Flag to indicate if any [common English word](https://github.com/first20hours/google-10000-english) of at least length of 4 is present within the secret.| Boolean|
 |length|Length of the secret.| Integer|
 |is_multiline| Flag to indicate if the secret is present in multiple lines. Most of the time true for private keys.| Boolean|
-|category| The category of the secret. The secrets are categorized in eight categories. See section Secret Category.| String|
+|category| The category of the secret. The secrets are categorized in eight categories. See section [Secret Categorization](#secret-categorization).| String|
 |file_identifier| Unique identifier of the file to check the secret from local system.| String|
 |repo_identifier|Unique identifier of the repository to check the secret from local system. |String|
 
-The "**repo_identifier**" and "**file_identifier**" can be used to locate the specific repository and the file where the secret is present. The repositories and files can be downloaded from Google Cloud Storage. See Section.
+The "**repo_identifier**" and "**file_identifier**" can be used to locate the specific repository and the file where the secret is present. The repositories and files can be downloaded from Google Cloud Storage. See Section [How to Use](#how-to-use).
 
 ### Secret Categorization:
 
@@ -144,18 +144,17 @@ In addition, we present the top 5 file types based on the number of true secrets
  - We will enrich our dataset with more features related to secrets, such as whether the secrets have parentheses (possible function call) and begin with a $ sign (possible variable). The complete list of our additional features is available [here](https://github.com/setu1421/SecretBench/blob/main/RoadMap/Additional%20Features.xlsx).
 
 
-
-
-
-
 ## License:
+
+This project is licensed under the terms of the MIT license. Please check [LICENSE](https://github.com/setu1421/SecretBench/blob/main/LICENSE) for more details.
 
 
 ## Ethics:
+Since our dataset contains sensitive information, we will make available to dataset only to researchers and tool developers. The researchers and tool developers will sign an agreement to protect the data from any unethical use.
 
+### How to Contribute
 
-## Citation:
-
+Please email us if you want to contribute. See [Authors](#authors) section for contact information.
 
 ## Authors:
  - Setu Kumar Basak (sbasak4@ncsu.edu)
