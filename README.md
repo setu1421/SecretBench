@@ -60,6 +60,54 @@ We used 761 regular expression patterns to collect candidate repositories contai
 |691|Twitter Access Token|(?i)(?:twitter)(?:.\|[\n\r]){0,40}\b[1-9][0-9]\+\-[0-9a-zA-Z]{40}\b|Meli et al.|
 |747|Youtube/Google OAuth ID|[0-9]+-[0-9A-Za-z_]{32}\.apps\.googleusercontent\.com|Meli et al.|
 
+### Overview of SecretBench Metadata:
+
+We curated 818 public Github repositories and extracted 97,479 candidate secrets. Each secret is manually labeled by finding out whether the secret is actual or not after inspecting the secret and the source code context of the secret. Below we present an overview of the SecretBench data.
+
+|Field Name|Description|Data Type|
+|--------|--------|--------|
+|id|Unique identifier of the secret.|String|
+|secret|Candidate secret string. The secret is surrounded by "[]" parenthesis.|String|
+|repo_name|Name of the repository. For example: "setu1421/SecretBench"|String|
+|domain|Domain of the repository such as GitHub|String|
+|commit_id|Commit hash where the secret is added. For example: "a074a5afe1d2663fda756c1bf3c87bad426cf7de"|String|
+|file_path|File path where the secret is included. For example: "dev.config" and "config/test.env".|String|
+|file_type|Type of the file such as .py and .config.|String|
+|start_line|Start line no. in the file where the secret is present.|Integer|
+|end_line|End line no. in the file where the secret is present. For secrets present in a single line, the start_line and end_line will be same.|Integer|
+|start_column|Start index of the secret in the start line.|Integer|
+|end_column|End index of the secret in the end line.|Integer|
+|committer_email|Email address of the developer who committed the secret.|String|
+|commit_date|The timestamp of the commit. For example: 2018-10-24T21:22:19Z|TimeStamp|
+|label|The ground truth label of the secret. "True" for actual secret and "False" for fake/dummy secret.|Boolean|
+|is_template|Flag to indicate if the secret is a placeholder such as "MY_PASSWORD" and "Place_Your_Token_Here". | Boolean|
+|in_url| Flag to indicate if the secret is part of URL such as "http://user:pwd@site.com".| Boolean|
+|entropy| Shannon entropy value of the secret.| Float|
+|character_set| Characters used in the secret such as NumberOnly, CharOnly and Any. | String|
+|has_words| Flag to indicate if any [common English word](https://github.com/first20hours/google-10000-english) of at least length of 4 is present within the secret.| Boolean|
+|length|Length of the secret.| Integer|
+|is_multiline| Flag to indicate if the secret is present in multiple lines. Most of the time true for private keys.| Boolean|
+|category| The category of the secret. The secrets are categorized in eight categories. See section Secret Category.| String|
+|file_identifier| Unique identifier of the file to check the secret from local system.| String|
+|repo_identifier|Unique identifier of the repository to check the secret from local system. |String|
+
+The "**repo_identifier**" and "**file_identifier**" can be used to locate the specific repository and the file where the secret is present. The repositories and files can be downloaded from Google Cloud Storage. See Section.
+
+### Secret Categorization
+
+The secrets present in our dataset in categorized into eight categories. In the table below, we present the number of total candidate secrets, true secrets, and the category description.
+
+|Category Name|Description|True Secrets|Total Secrets
+|--------|--------|--------|--------|
+|Private Key|This category contains the private keys such as cryptographic RSA private key and EC private key.|5,791|8,584|
+|API Key and Secret|This category contains any API Keys and secret such as Twillo API key and Stripe API key. | 4,529 |5,162|
+|Authentication Key and Token|This category contains the access keys and tokens such as AWS Access Key ID and Slack Token.| 3,569| 5,833|
+|Generic Secret|This category contains any generic secrets such application package secret, recaptcha site key.| 334 | 439|
+|Database and Server URL |This category contains the database and server URLs. For example. any mongoDB connection string and any FTP server url.| 162 | 9,970|
+|Password |This category contains any plain text passwords.| 150 | 705|
+|Username |This category contains any plain text usernames.| 27 | 96|
+|Other |This category contains other possible secrets such as Package Key ID or any random string.| 524 | 66,690|
+
 ## License:
 
 ## Ethics:
@@ -73,3 +121,8 @@ We used 761 regular expression patterns to collect candidate repositories contai
  - Lorenzo Neil (lcneil@ncsu.edu)
  - Bradley Reaves (bgreaves@ncsu.edu)
  - Laurie Willams (lawilli3@ncsu.edu) 
+
+
+
+
+
