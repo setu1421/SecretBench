@@ -24,7 +24,7 @@
 
 Throughout 2021, GitGuardian’s monitoring of public GitHub repositories revealed a two-fold increase in the number of secrets (API keys, Authentication Tokens, Database Credentials, and other credentials) exposed compared to 2020, accumulating more than six million secrets. However, no benchmark dataset is publicly available for researchers and tool developers to improve secret detection tools to avoid secret leakage. 
 
-We present a large and versatile dataset, SecretBench, consisting of 97,477 manually labeled secrets of various secret types extracted from 818 public GitHub repositories. The dataset contains 15,086 true secrets out of 97,477 secrets. Our dataset covers 248 programming languages and 311 file types. We have made the dataset available for researchers and tool developers in Google BigQuery and Cloud Storage.
+We present a large and versatile dataset, SecretBench, consisting of 97,479 manually labeled secrets of various secret types extracted from 818 public GitHub repositories. The dataset contains 15,086 true secrets out of 97,479 secrets. Our dataset covers 248 programming languages and 311 file types. We have made the dataset available for researchers and tool developers in Google BigQuery and Cloud Storage.
 
 ## How to Use
 
