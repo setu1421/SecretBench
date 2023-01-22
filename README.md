@@ -83,6 +83,7 @@ We curated 818 public Github repositories and extracted 97,479 candidate secrets
 |category| The category of the secret. The secrets are categorized in eight categories. See section [Secret Categorization](#secret-categorization).| String|
 |file_identifier| Unique identifier of the file to check the secret from local system.| String|
 |repo_identifier|Unique identifier of the repository to check the secret from local system. |String|
+|comment| A description of the secret types such as Slack Token, AWS Access Key ID and Value with "key" as part of attribute name.|String|
 
 The "**repo_identifier**" and "**file_identifier**" can be used to locate the specific repository and the file where the secret is present. The repositories and files can be downloaded from Google Cloud Storage. See Section [How to Use](#how-to-use).
 
