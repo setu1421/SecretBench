@@ -30,7 +30,7 @@ We present a large and versatile dataset, SecretBench, consisting of 97,479 manu
 
 The dataset is stored in Google BigQuery and Cloud Storage. First, you need to create a Google Cloud Account. Google Cloud gives a $300 free credit after opening the account. You can run SQL queries in Google BigQuery to access the secrets and download repositories and related files from Google Cloud Storage.
 
- - **Google BigQuery Dataset id (*dev-range-332204.secretbench.secrets*):**  Google BigQuery contains 97,477 secrets with ground truth info, whether the secret is true or false. Addition metadata information regarding the secrets such as commit id, start line, and end line can also be accessed. More details of the metadata is described in [Data Overview](#data-overview) section.
+ - **Google BigQuery Dataset id (*dev-range-332204.secretbench.secrets*):**  Google BigQuery contains 97,479 secrets with ground truth info, whether the secret is true or false. Addition metadata information regarding the secrets such as commit id, start line, and end line can also be accessed. More details of the metadata is described in [Data Overview](#data-overview) section.
  - **Google Cloud Storage (*bucket-name: secretbench*):** The mined 818 public GitHub repositories are stored in Google Cloud Storage in a "**Repos.zip**" file. We have also stored the individual files containing the secrets in a "**Files.zip**" file.
 
 **Important:** *The researchers and developers who want to use our dataset need to contact us. Since the dataset contains sensitive information, a data protection agreement has to be signed with us to avoid any unethical use of the data. Later, we will give access to the dataset using their email addresses.*
