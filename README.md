@@ -55,7 +55,7 @@ We used 761 regular expression patterns to collect candidate repositories contai
 
 ### Overview of SecretBench Metadata:
 
-We curated 818 public Github repositories and extracted 97,479 candidate secrets. Out of 97,479 secrets, we labeled 15,087 secrets as true secrets. Each secret is manually labeled by finding out whether the secret is actual or not after inspecting the secret and the source code context of the secret. Below we present an overview of the SecretBench data.
+We curated 818 public Github repositories and extracted 97,479 candidate secrets. Out of 97,479 secrets, we labeled 15,084 secrets as true secrets. Each secret is manually labeled by finding out whether the secret is actual or not after inspecting the secret and the source code context of the secret. Below we present an overview of the SecretBench data.
 
 |Field Name|Description|Data Type|
 |--------|--------|--------|
