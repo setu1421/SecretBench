@@ -93,7 +93,7 @@ The secrets present in our dataset in categorized into eight categories. In the 
 
 |Category Name|Description|True Secrets|Total Secrets
 |--------|--------|--------|--------|
-|Private Key|This category contains the private keys such as cryptographic RSA private key and EC private key.|5,791|8,584|
+|Private Key|This category contains the private keys such as cryptographic RSA private key and EC private key.|5,789|8,584|
 |API Key and Secret|This category contains any API Keys and secret such as Twillo API key and Stripe API key. | 4,529 |5,162|
 |Authentication Key and Token|This category contains the access keys and tokens such as AWS Access Key ID and Slack Token.| 3,569| 5,833|
 |Generic Secret|This category contains any generic secrets such application package secret, recaptcha site key.| 334 | 439|
@@ -137,7 +137,7 @@ In addition, we present the top 5 file types based on the number of true secrets
 |toml|Configuration File|1,985|
 |js|Javascript file|1,583|
 |html|Hypertext Markup Language File|1,337|
-|pem|Privacy Enhanced Mail Format File|814|
+|pem|Privacy Enhanced Mail Format File|813|
 
 ### Future RoadMap:
 
