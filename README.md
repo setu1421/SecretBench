@@ -24,7 +24,7 @@
 
 Throughout 2021, GitGuardian’s monitoring of public GitHub repositories revealed a two-fold increase in the number of secrets (API keys, Authentication Tokens, Database Credentials, and other credentials) exposed compared to 2020, accumulating more than six million secrets. However, no benchmark dataset is publicly available for researchers and tool developers to improve secret detection tools to avoid secret leakage. 
 
-We present a large and versatile dataset, SecretBench, consisting of 97,479 manually labeled secrets of various secret types extracted from 818 public GitHub repositories. The dataset contains 15,084 true secrets out of 97,479 secrets. Our dataset covers 248 programming languages and 311 file types. We have made the dataset available for researchers and tool developers in Google BigQuery and Cloud Storage.
+We present a large and versatile dataset, SecretBench, consisting of 97,479 manually labeled secrets of various secret types extracted from 818 public GitHub repositories. The dataset contains 15,084 true secrets out of 97,479 secrets. Our dataset covers 49 programming languages and 311 file types. We have made the dataset available for researchers and tool developers in Google BigQuery and Cloud Storage.
 
 ## How to Use
 
@@ -104,20 +104,20 @@ The secrets present in our dataset in categorized into eight categories. In the 
 
 ### Programming Languages:
 
-Our dataset covers 248 programming languages. Note that each GitHub repository can have multiple programming languages. The top 10 programming languages based on the number of repositories is presented below. The full list of programming languages can be found [here](https://github.com/setu1421/SecretBench/blob/main/Metadata/Programming%20Languages/language_repo_stat.csv).
+Our dataset covers 49 programming languages. Note that each GitHub repository can have multiple programming languages. The top 10 programming languages based on the number of repositories is presented below. The full list of programming languages can be found [here](https://github.com/setu1421/SecretBench/blob/main/Metadata/Programming%20Languages/language_repo_stat.csv).
 
 |Language Name|No. of Repository|
 |--------|--------|
 |Shell|459|
-|HTML|416|
 |JavaScript|414|
-|CSS|316|
 |Python|312|
-|Dockerfile|183|
 |Java|180|
-|Makefile|179|
 |Ruby|172|
 |C|128|
+|Batch|124|
+|C++|111|
+|PHP|107|
+|Go|88|
 
 ### File Types:
 
