@@ -2,7 +2,7 @@
 # SecretBench: A Dataset of Software Secrets
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7570239.svg)](https://doi.org/10.5281/zenodo.7570239)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7571266.svg)](https://doi.org/10.5281/zenodo.7571266)
 
 
 ## Table of Contents
