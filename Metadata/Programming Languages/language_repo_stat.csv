@@ -1,249 +1,50 @@
 language,count
 Shell,459
-HTML,416
 JavaScript,414
-CSS,316
 Python,312
-Dockerfile,183
 Java,180
-Makefile,179
 Ruby,172
 C,128
-Batchfile,124
-SCSS,116
+Batch,124
 C++,111
 PHP,107
 Go,88
 TypeScript,81
 C#,76
-CMake,58
 Objective-C,57
 Perl,56
-XSLT,47
-PowerShell,42
 Kotlin,39
-Less,36
-Jupyter Notebook,35
 Lua,35
 Swift,33
 Scala,31
-Roff,31
-Smarty,27
-M4,24
 Groovy,24
-Procfile,23
 CoffeeScript,23
-Objective-C++,22
-PLpgSQL,22
-Mustache,22
-TeX,22
-GLSL,22
 Gherkin,22
+GLSL,22
+Objective-C++,22
 Assembly,20
-EJS,19
-Jinja,18
 Vue,18
-QMake,17
 Hack,17
-Starlark,16
-Handlebars,16
 R,16
-HCL,15
+Starlark,16
 TSQL,15
 Haskell,14
 Rust,13
-FreeMarker,12
-Pug,12
 Raku,11
-Meson,11
-Rich Text Format,10
-Emacs Lisp,10
 Dart,10
-PLSQL,10
-Vim Script,10
-SWIG,9
-Lex,9
-Twig,9
-ANTLR,9
-ASP.NET,9
-Mako,8
-Stylus,8
-NSIS,8
+Emacs Lisp,10
 Clojure,8
-Scheme,7
-Sass,7
-GAP,7
-Smalltalk,7
+NSIS,8
 Awk,7
 Cuda,7
-Thrift,7
-QML,6
-NASL,6
-Yacc,6
-Nix,6
+GAP,7
+Scheme,7
+Smalltalk,7
 Pascal,6
-Elixir,5
-Inno Setup,5
-HLSL,5
-sed,5
 Apex,5
 Blade,5
+Elixir,5
+F#,5
 PostScript,5
 Prolog,5
-F#,5
 VBScript,5
-LLVM,5
-RobotFramework,5
-Haml,5
-MATLAB,4
-Slim,4
-Fortran,4
-OCaml,4
-GDB,4
-Mathematica,4
-Sage,4
-BitBake,4
-Bicep,4
-Vim script,4
-Erlang,4
-Jsonnet,4
-Common Lisp,4
-ActionScript,4
-Tcl,4
-RAML,4
-VCL,3
-Elm,3
-SaltStack,3
-SmPL,3
-Cython,3
-AngelScript,3
-COBOL,3
-Protocol Buffer,3
-Visual Basic .NET,3
-Vala,3
-ASP,3
-SQLPL,3
-XS,3
-WebAssembly,3
-Forth,3
-Julia,3
-SourcePawn,3
-Scilab,3
-Logos,3
-Gnuplot,3
-ApacheConf,3
-PigLatin,3
-Standard ML,3
-Classic ASP,3
-ColdFusion,3
-API Blueprint,2
-LookML,2
-HiveQL,2
-YASnippet,2
-Vim Snippet,2
-Cap'n Proto,2
-kvlang,2
-Eiffel,2
-AIDL,2
-APL,2
-PureBasic,2
-Squirrel,2
-VBA,2
-Pawn,2
-Puppet,2
-Metal,2
-YARA,2
-Haxe,2
-Xtend,2
-Stata,2
-D,2
-BlitzBasic,2
-Solidity,2
-SystemVerilog,2
-Limbo,2
-XQuery,2
-Reason,2
-Io,2
-Matlab,2
-AspectJ,2
-Nim,2
-Ada,2
-Nunjucks,2
-POV-Ray SDL,2
-Fluent,2
-Visual Basic,2
-Common Workflow Language,2
-RenderScript,2
-VimL,1
-Perl6,1
-IDL,1
-Component Pascal,1
-DIGITAL Command Language,1
-hoon,1
-xBase,1
-Max,1
-Zig,1
-CodeQL,1
-Svelte,1
-Rascal,1
-M,1
-RPC,1
-UnrealScript,1
-AppleScript,1
-LSL,1
-DataWeave,1
-F*,1
-nesC,1
-Qt Script,1
-NewLisp,1
-Processing,1
-OpenSCAD,1
-ImageJ Macro,1
-MAXScript,1
-FORTRAN,1
-Redcode,1
-Ring,1
-Groff,1
-Scaml,1
-ObjectScript,1
-wdl,1
-Odin,1
-ReScript,1
-PureScript,1
-Brainfuck,1
-Agda,1
-ASL,1
-VHDL,1
-StringTemplate,1
-Promela,1
-Objective-J,1
-AutoIt,1
-Chapel,1
-AutoHotkey,1
-Jasmin,1
-CUE,1
-DM,1
-Closure Templates,1
-Clarion,1
-AMPL,1
-Brightscript,1
-Clean,1
-Racket,1
-Isabelle,1
-Nearley,1
-PEG.js,1
-Stan,1
-Logtalk,1
-Lean,1
-LFE,1
-JetBrains MPS,1
-Idris,1
-DenizenScript,1
-IGOR Pro,1
-HolyC,1
-Gleam,1
-Futhark,1
-Fennel,1
-q,1
-Dhall,1
-DTrace,1
