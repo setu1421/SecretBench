@@ -38,7 +38,7 @@ The dataset is stored in Google BigQuery and Cloud Storage. First, you need to c
 ## Data Overview
 
 ### Regular Expressions:
-We used 761 regular expression patterns to collect candidate repositories containing secrets. We collected the regular expression patterns from the source code of the detection packages of [TruffleHog](https://github.com/trufflesecurity/trufflehog/tree/main/pkg/detectors) and a study done by [Meli et al.](https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_04B-3_Meli_paper.pdf). A snapshot of 10 regular expression patterns is presented in the below table. The complete list of regular expression patterns can be found [here](https://github.com/setu1421/SecretBench/blob/main/Regular%20Expressions/Secret%20Regular%20Expression.xlsx).
+We used 761 regular expression patterns to collect candidate repositories containing secrets. A snapshot of 10 regular expression patterns is presented in the below table. The complete list of regular expression patterns can be found [here](https://github.com/setu1421/SecretBench/blob/main/Regular%20Expressions/Secret%20Regular%20Expression.xlsx).
 
 |Pattern ID|Secret Type|Regular Expression|Source|
 |--------|--------|--------|--------|
