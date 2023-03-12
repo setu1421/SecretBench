@@ -2,9 +2,10 @@
 # SecretBench: A Dataset of Software Secrets
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7571266.svg)](https://doi.org/10.5281/zenodo.7571266)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7571266.svg)](https://doi.org/10.5281/zenodo.7555981)
 
-## Accepted at the Data and Tool Showcase Track of the 20th International Conference on Mining Software Repositories (MSR 2023)
+
+*Accepted at the Data and Tool Showcase Track of the 20th International Conference on Mining Software Repositories (MSR 2023)*
 ## Table of Contents
    * [Introduction](#introduction)
    * [How To Use](#how-to-use)
