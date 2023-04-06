@@ -163,3 +163,12 @@ Please email us if you want to contribute. See [Authors](#authors) section for c
  - Lorenzo Neil (lcneil@ncsu.edu)
  - Bradley Reaves (bgreaves@ncsu.edu)
  - Laurie Willams (lawilli3@ncsu.edu) 
+ 
+## Cite our work:
+
+@article{basak2023secretbench,
+  title={SecretBench: A Dataset of Software Secrets},
+  author={Basak, Setu Kumar and Neil, Lorenzo and Reaves, Bradley and Williams, Laurie},
+  journal={arXiv preprint arXiv:2303.06729},
+  year={2023}
+} 
