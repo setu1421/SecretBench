@@ -166,6 +166,7 @@ Please email us if you want to contribute. See [Authors](#authors) section for c
  
 ## Cite our work:
 
+```
 @article{basak2023secretbench,
   title={SecretBench: A Dataset of Software Secrets},
   author={Basak, Setu Kumar and Neil, Lorenzo and Reaves, Bradley and Williams, Laurie},
