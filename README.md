@@ -166,10 +166,22 @@ Please email us if you want to contribute. See [Authors](#authors) section for c
  
 ## Cite our work:
 
+BibTex
+
 ```
-@article{basak2023secretbench,
-  title={SecretBench: A Dataset of Software Secrets},
+@INPROCEEDINGS{10174157,
   author={Basak, Setu Kumar and Neil, Lorenzo and Reaves, Bradley and Williams, Laurie},
-  journal={arXiv preprint arXiv:2303.06729},
-  year={2023}
-} 
+  booktitle={2023 IEEE/ACM 20th International Conference on Mining Software Repositories (MSR)}, 
+  title={SecretBench: A Dataset of Software Secrets}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={347-351},
+  doi={10.1109/MSR59073.2023.00053}}
+```
+
+Plain Text
+
+```
+S. K. Basak, L. Neil, B. Reaves and L. Williams, "SecretBench: A Dataset of Software Secrets," 2023 IEEE/ACM 20th International Conference on Mining Software Repositories (MSR), Melbourne, Australia, 2023, pp. 347-351, doi: 10.1109/MSR59073.2023.00053.
+ 
